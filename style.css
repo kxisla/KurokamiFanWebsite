@@ -176,7 +176,8 @@ footer {
 }
 
 .creator a {
-    color: aqua;
+    color: rgb(34, 15, 15);
+    text-decoration: none;
 }
 
 .creator a:hover,
@@ -184,9 +185,11 @@ footer {
     color: #ffffff;
     outline: 2px solid red;
     outline-offset: 1px;
+    transform: ease-in 0.5s;
 }
 
 .flex {
     display: flex;
     flex-wrap: wrap;
+
 }
